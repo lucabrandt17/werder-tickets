@@ -195,7 +195,7 @@
       "-P1D",
       "-PT15M"
     ],
-    "description": "Heimspiel: Hamburger SV\nSpieltermin: 22.11.26, 17:30 Uhr\nBestellphase: 07.-14.09.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung läuft\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Heimspiel: Hamburger SV\nSpieltermin: 22.11.26, 17:30 Uhr\nBestellphase: 07.-14.09.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-ende|heim|Hamburger SV|2026/27": {
     "venue": "heim",
@@ -217,7 +217,7 @@
       "-P1D",
       "-PT1H"
     ],
-    "description": "Die Bestellphase endet voraussichtlich am 14.09.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: Hamburger SV\nSpieltermin: 22.11.26, 17:30 Uhr\nBestellphase: 07.-14.09.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung läuft\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Die Bestellphase endet voraussichtlich am 14.09.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: Hamburger SV\nSpieltermin: 22.11.26, 17:30 Uhr\nBestellphase: 07.-14.09.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-start|heim|Borussia M'gladbach|2026/27": {
     "venue": "heim",
@@ -239,7 +239,7 @@
       "-P1D",
       "-PT15M"
     ],
-    "description": "Heimspiel: Borussia M'gladbach\nSpieltermin: 27.11.26, 20:30 Uhr\nBestellphase: 21.-28.09.2026, 10:30 Uhr\nBearbeitungsstand: Bestellphase abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Heimspiel: Borussia M'gladbach\nSpieltermin: 27.11.26, 20:30 Uhr\nBestellphase: 21.-28.09.2026, 10:30 Uhr\nBearbeitungsstand: in Bearbeitung\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-ende|heim|Borussia M'gladbach|2026/27": {
     "venue": "heim",
@@ -261,7 +261,7 @@
       "-P1D",
       "-PT1H"
     ],
-    "description": "Die Bestellphase endet voraussichtlich am 28.09.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: Borussia M'gladbach\nSpieltermin: 27.11.26, 20:30 Uhr\nBestellphase: 21.-28.09.2026, 10:30 Uhr\nBearbeitungsstand: Bestellphase abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Die Bestellphase endet voraussichtlich am 28.09.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: Borussia M'gladbach\nSpieltermin: 27.11.26, 20:30 Uhr\nBestellphase: 21.-28.09.2026, 10:30 Uhr\nBearbeitungsstand: in Bearbeitung\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-start|heim|Bayer 04 Leverkusen|2026/27": {
     "venue": "heim",
@@ -481,7 +481,7 @@
       "-PT1H",
       "-PT5M"
     ],
-    "description": "Heimspiel: Hamburger SV\nBearbeitungsstand: Bearbeitung läuft\nInfo: Restkartenverkauf startet voraussichtlich am 03.11.2026 10:30 Uhr - Nur für Mitglieder!\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Heimspiel: Hamburger SV\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Restkartenverkauf startet voraussichtlich am 03.11.2026 10:30 Uhr - Nur für Mitglieder!\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-start|auswaerts|LSK Hansa (DFB-Pokal)|2026/27": {
     "venue": "auswaerts",
