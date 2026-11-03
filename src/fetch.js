@@ -27,7 +27,15 @@ async function launch(headless) {
 async function readTables(page, url) {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60_000 });
   // Falls zuerst die Sicherheitsseite kommt, wartet der Browser, bis die echte Seite da ist.
-  await page.waitForSelector('table', { state: 'attached', timeout: 60_000 });
+  try {
+    await page.waitForSelector('table', { state: 'attached', timeout: 60_000 });
+  } catch (err) {
+    const title = await page.title().catch(() => '');
+    if (/security checkpoint|too many requests|access denied/i.test(title)) {
+      throw new Error(`werder.de blockiert diesen Rechner (Bot-Schutz: "${title}").`);
+    }
+    throw err;
+  }
   return page.$$eval('table', (tables) =>
     tables.map((table) => {
       const cellText = (td) => (td.textContent || '').replace(/\s+/g, ' ').trim();
