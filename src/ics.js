@@ -34,6 +34,10 @@ function addMinutes(t, minutes) {
   return { y: dt.getUTCFullYear(), mo: dt.getUTCMonth() + 1, d: dt.getUTCDate(), h: dt.getUTCHours(), mi: dt.getUTCMinutes() };
 }
 
+function dateStamp({ y, mo, d }) {
+  return `${y}${p(mo)}${p(d)}`;
+}
+
 function utcStamp(date) {
   return date.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
 }
@@ -82,18 +86,24 @@ export function buildIcs(events, { name = 'Werder Tickets – Bestellfristen', n
   const stamp = utcStamp(now);
   const sorted = [...events].sort((a, b) => localStamp(a.start).localeCompare(localStamp(b.start)));
   for (const ev of sorted) {
-    lines.push(
-      'BEGIN:VEVENT',
-      `UID:${uidFor(ev.id)}`,
-      `DTSTAMP:${stamp}`,
-      `DTSTART;TZID=${TZ}:${localStamp(ev.start)}`,
-      `DTEND;TZID=${TZ}:${localStamp(addMinutes(ev.start, ev.durationMin))}`,
-      `SUMMARY:${escapeText(ev.title)}`,
-      `DESCRIPTION:${escapeText(ev.description)}`,
-      `URL:${ev.url}`,
-      `CATEGORIES:${escapeText(ev.kind)}`,
-      'TRANSP:TRANSPARENT',
-    );
+    lines.push('BEGIN:VEVENT', `UID:${uidFor(ev.id)}`, `DTSTAMP:${stamp}`);
+    if (ev.allDay) {
+      // DTEND ist bei ganztägigen Terminen exklusiv, also Folgetag.
+      lines.push(
+        `DTSTART;VALUE=DATE:${dateStamp(ev.start)}`,
+        `DTEND;VALUE=DATE:${dateStamp(addMinutes({ ...ev.endDay, h: 0, mi: 0 }, 24 * 60))}`,
+      );
+    } else {
+      lines.push(
+        `DTSTART;TZID=${TZ}:${localStamp(ev.start)}`,
+        `DTEND;TZID=${TZ}:${localStamp(addMinutes(ev.start, ev.durationMin))}`,
+      );
+    }
+    lines.push(`SUMMARY:${escapeText(ev.title)}`);
+    if (ev.description) lines.push(`DESCRIPTION:${escapeText(ev.description)}`);
+    if (ev.location) lines.push(`LOCATION:${escapeText(ev.location)}`);
+    if (ev.url) lines.push(`URL:${ev.url}`);
+    lines.push(`CATEGORIES:${escapeText(ev.kind)}`, ev.kind === 'eigene' ? 'TRANSP:OPAQUE' : 'TRANSP:TRANSPARENT');
     for (const trigger of ev.alarms ?? []) {
       lines.push(
         'BEGIN:VALARM',

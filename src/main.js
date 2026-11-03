@@ -1,17 +1,18 @@
-// Täglicher Lauf: Seiten auslesen -> Termine bauen -> .ics schreiben -> zu GitHub pushen.
+// Täglicher Lauf: Seiten auslesen -> Termine in data/events.json -> zu GitHub pushen.
+// Den Kalender selbst baut danach die GitHub Action (src/build.js).
 //   node src/main.js            normaler Lauf
-//   node src/main.js --no-push  nur lokal erzeugen
+//   node src/main.js --no-push  nur lokal erzeugen (inkl. Vorschau in _site/)
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchAll, PAGES } from './fetch.js';
 import { buildEvents, fmt } from './parse.js';
-import { buildIcs } from './ics.js';
+import { buildCalendar } from './build.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const STORE = join(ROOT, 'data', 'events.json');
-const ICS_OUT = join(ROOT, 'docs', 'werder-tickets.ics');
+const PREVIEW = join(ROOT, '_site', 'werder-tickets.ics');
 const push = !process.argv.includes('--no-push');
 
 const log = (...a) => console.log(new Date().toISOString(), ...a);
@@ -60,19 +61,22 @@ async function main() {
   for (const id of added) log('  neu:', store[id].title, '–', fmt(store[id].start));
   for (const id of removed) log('  entfernt:', oldStore[id].title);
 
-  if (added.length === 0 && changed.length === 0 && removed.length === 0 && existsSync(ICS_OUT)) {
+  if (added.length === 0 && changed.length === 0 && removed.length === 0) {
     log('Keine Änderungen.');
     return;
   }
 
   mkdirSync(dirname(STORE), { recursive: true });
-  mkdirSync(dirname(ICS_OUT), { recursive: true });
   writeFileSync(STORE, JSON.stringify(store, null, 2) + '\n');
-  writeFileSync(ICS_OUT, buildIcs(Object.values(store)));
-  log('Kalender geschrieben:', ICS_OUT);
+  log('Termine gespeichert:', STORE);
 
-  if (!push) return;
-  git('add', 'data/events.json', 'docs/werder-tickets.ics');
+  if (!push) {
+    mkdirSync(dirname(PREVIEW), { recursive: true });
+    writeFileSync(PREVIEW, buildCalendar().ics);
+    log('Vorschau geschrieben:', PREVIEW);
+    return;
+  }
+  git('add', 'data/events.json');
   const summary = [
     added.length && `${added.length} neu`,
     changed.length && `${changed.length} geändert`,

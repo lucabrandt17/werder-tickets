@@ -174,6 +174,18 @@
   </section>
 
   <section class="section">
+    <h2 class="section-title">Eigene Termine</h2>
+    <div class="group links">
+      <a class="row" href="https://github.com/lucabrandt17/werder-tickets/edit/main/termine.txt" target="_blank" rel="noopener">
+        <span class="glyph" style="background:var(--green)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+        <span class="row-main link-label">Termin hinzufügen</span>
+        <svg class="chevron" viewBox="0 0 8 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m1 1 6 6-6 6"/></svg>
+      </a>
+    </div>
+    <p class="section-foot">Öffnet die Terminliste auf GitHub (Anmeldung nötig). Nach dem Speichern ist der Kalender in etwa einer Minute aktualisiert.</p>
+  </section>
+
+  <section class="section">
     <h2 class="section-title">So geht's auf dem iPhone</h2>
     <div class="group steps">
       <div class="row"><span class="step">1</span><div class="row-main">Oben auf <b>Kalender abonnieren</b> tippen und bestätigen.</div></div>
@@ -234,8 +246,9 @@
         const key = line.slice(0, i).split(';')[0];
         const val = line.slice(i + 1).replace(/\\n/g, '\n').replace(/\\([,;\\])/g, '$1');
         if (key === 'DTSTART' || key === 'DTEND') {
-          const m = val.match(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})/);
-          ev[key] = new Date(+m[1], m[2] - 1, +m[3], +m[4], +m[5]);
+          const m = val.match(/(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2}))?/);
+          ev[key] = new Date(+m[1], m[2] - 1, +m[3], +(m[4] || 0), +(m[5] || 0));
+          if (!m[4]) ev.allDay = true;
         } else ev[key] = val;
       } else if (ev && line === 'END:VALARM') ev.inAlarm = false;
     }
@@ -248,7 +261,9 @@
     for (const e of events) {
       const title = (e.SUMMARY || '').replace(/^\S+\s/, '');
       let m;
-      if ((m = title.match(/^(.+?) startet: (Heim|Auswärts) vs (.+)$/)))
+      if (e.CATEGORIES === 'eigene')
+        items.push({ kind: 'eigene', team: title, label: 'Eigener Termin', place: e.LOCATION, allDay: e.allDay, at: e.DTSTART, end: e.DTEND });
+      else if ((m = title.match(/^(.+?) startet: (Heim|Auswärts) vs (.+)$/)))
         starts.set(m[1] + m[2] + m[3], { label: m[1].replace(' aktive Mitglieder', ''), venue: m[2], team: m[3], at: e.DTSTART });
       else if ((m = title.match(/^Letzte Chance: (.+?) (Heim|Auswärts) vs (.+)$/))) ends.set(m[1] + m[2] + m[3], e.DTEND);
       else if ((m = title.match(/^Restkarten: (Heim|Auswärts) vs (.+?)( \(nur Mitglieder\))?$/)))
@@ -283,9 +298,11 @@
     box.innerHTML = '';
     for (const it of items) {
       const shown = it.live ? it.end : it.at;
-      const sub = it.live
-        ? `${it.venue}spiel · ${it.label} bis ${shortDate(it.end)}, ${time(it.end)}`
-        : `${it.venue}spiel · ${it.label} ab ${time(it.at)}`;
+      const sub = it.kind === 'eigene'
+        ? [it.allDay ? 'Ganztägig' : `${time(it.at)} Uhr`, it.place || 'Eigener Termin'].join(' · ')
+        : it.live
+          ? `${it.venue}spiel · ${it.label} bis ${shortDate(it.end)}, ${time(it.end)}`
+          : `${it.venue}spiel · ${it.label} ab ${time(it.at)}`;
       const row = document.createElement('div');
       row.className = 'row';
       row.innerHTML = `
@@ -297,7 +314,7 @@
       row.querySelector('.row-title').textContent = it.team;
       row.querySelector('.row-sub').textContent = sub;
       const chip = row.querySelector('.chip');
-      chip.textContent = it.live ? 'Läuft' : relative(it.at, now);
+      chip.textContent = it.live ? (it.kind === 'eigene' ? 'Jetzt' : 'Läuft') : relative(it.at, now);
       chip.classList.toggle('live', it.live);
       box.append(row);
     }

@@ -1,0 +1,13 @@
+# Eigene Termine fuer den Werder-Kalender. Eine Zeile pro Termin, Teile mit | trennen:
+#
+#   Datum [Uhrzeit] | Titel | Ort (optional) | Notiz (optional)
+#
+# Beispiele:
+#   14.11.2026 18:00 | Treffen vorm Stadion | Ostkurve
+#   14.11.2026 18:00-20:00 | Stammtisch | Kneipe XY | Tisch ist reserviert
+#   05.12.2026 | Ganztaegiger Termin
+#   04.12.2026-06.12.2026 | Auswaertsfahrt Frankfurt | Deutsche Bank Park
+#
+# Termine mit Uhrzeit erinnern 2 Stunden vorher. Zeilen mit # werden ignoriert.
+# Nach dem Speichern ist der Kalender nach etwa einer Minute aktualisiert.
+
