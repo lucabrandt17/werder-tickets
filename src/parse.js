@@ -133,7 +133,9 @@ export function buildEvents(tables, pages) {
           alarms: ['-P1D', '-PT15M'],
           description: details.join('\n'),
         });
-        if (phase.end) {
+        // "Bestellannahme wegen hoher Nachfrage vorzeitig beendet." -> keine Erinnerung ans Ende mehr
+        const closedEarly = /vorzeitig beendet|ausverkauft|keine (weiteren )?bestellungen/i.test(info);
+        if (phase.end && !closedEarly) {
           const endEvent = { ...phase.end };
           // Termin endet zur genannten Uhrzeit, beginnt eine Stunde vorher.
           const startEnd = { ...endEvent, h: endEvent.h - 1 };

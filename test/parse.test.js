@@ -63,6 +63,10 @@ test('Echte Seitendaten ergeben gültigen Kalender', () => {
   assert.ok(titles.includes('🎟️ Bestellphase startet: Auswärts vs FC Schalke 04'));
   assert.ok(titles.some((x) => x.startsWith('🎫 Restkarten: Heim vs Hamburger SV')));
   assert.ok(titles.some((x) => x.includes('Freikarten')));
+  assert.ok(
+    !titles.includes('⏰ Letzte Chance: Freikarten aktive Mitglieder Heim vs SV Elversberg'),
+    'vorzeitig beendete Phase bekommt keine Letzte-Chance-Erinnerung',
+  );
   assert.equal(new Set(events.map((e) => e.id)).size, events.length, 'IDs eindeutig');
 
   const ics = buildIcs(events);

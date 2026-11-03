@@ -21,28 +21,6 @@
     ],
     "description": "Heimspiel: FC Augsburg\nSpieltermin: Sa., 19.09.26, 15:30 Uhr\nFreikarten aktive Mitglieder: 10.08.2026, 10:30 Uhr - max. 07.09.2026, 10:30 Uhr\nHinweis: Bestellannahme wegen hoher Nachfrage vorzeitig beendet.\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
-  "freikarten-ende|heim|FC Augsburg|2026/27": {
-    "venue": "heim",
-    "opponent": "FC Augsburg",
-    "season": "2026/27",
-    "url": "https://www.werder.de/tickets/maenner/heimspiele",
-    "kind": "freikarten",
-    "id": "freikarten-ende|heim|FC Augsburg|2026/27",
-    "title": "⏰ Letzte Chance: Freikarten aktive Mitglieder Heim vs FC Augsburg",
-    "start": {
-      "d": 7,
-      "mo": 9,
-      "y": 2026,
-      "h": 9,
-      "mi": 30
-    },
-    "durationMin": 60,
-    "alarms": [
-      "-P1D",
-      "-PT1H"
-    ],
-    "description": "Die Freikarten aktive Mitglieder endet voraussichtlich am 07.09.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: FC Augsburg\nSpieltermin: Sa., 19.09.26, 15:30 Uhr\nFreikarten aktive Mitglieder: 10.08.2026, 10:30 Uhr - max. 07.09.2026, 10:30 Uhr\nHinweis: Bestellannahme wegen hoher Nachfrage vorzeitig beendet.\nhttps://www.werder.de/tickets/maenner/heimspiele"
-  },
   "freikarten-start|heim|SV Elversberg|2026/27": {
     "venue": "heim",
     "opponent": "SV Elversberg",
@@ -64,28 +42,6 @@
       "-PT15M"
     ],
     "description": "Heimspiel: SV Elversberg\nSpieltermin: 15. - 17.01.2027\nFreikarten aktive Mitglieder: 10.08.2026, 10:30 Uhr - max. 04.01.2027, 10:30 Uhr\nHinweis: Bestellannahme wegen hoher Nachfrage vorzeitig beendet.\nhttps://www.werder.de/tickets/maenner/heimspiele"
-  },
-  "freikarten-ende|heim|SV Elversberg|2026/27": {
-    "venue": "heim",
-    "opponent": "SV Elversberg",
-    "season": "2026/27",
-    "url": "https://www.werder.de/tickets/maenner/heimspiele",
-    "kind": "freikarten",
-    "id": "freikarten-ende|heim|SV Elversberg|2026/27",
-    "title": "⏰ Letzte Chance: Freikarten aktive Mitglieder Heim vs SV Elversberg",
-    "start": {
-      "d": 4,
-      "mo": 1,
-      "y": 2027,
-      "h": 9,
-      "mi": 30
-    },
-    "durationMin": 60,
-    "alarms": [
-      "-P1D",
-      "-PT1H"
-    ],
-    "description": "Die Freikarten aktive Mitglieder endet voraussichtlich am 04.01.2027, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: SV Elversberg\nSpieltermin: 15. - 17.01.2027\nFreikarten aktive Mitglieder: 10.08.2026, 10:30 Uhr - max. 04.01.2027, 10:30 Uhr\nHinweis: Bestellannahme wegen hoher Nachfrage vorzeitig beendet.\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-start|heim|FC Augsburg|2026/27": {
     "venue": "heim",
@@ -966,5 +922,27 @@
       "-PT1H"
     ],
     "description": "Die Bestellphase endet voraussichtlich am 16.11.2026, 10:30 Uhr – lieber vorher bestellen!\nAuswärtsspiel: FC Schalke 04\nSpieltermin: 12.-14.01.27\nBestellphase: 09.-16.11.2026, 10:30 Uhr\nBearbeitungsstand: Bestellphase in Kürze\nhttps://www.werder.de/tickets/maenner/auswaertsspiele"
+  },
+  "freikarten-ende|heim|FC Augsburg|2026/27": {
+    "venue": "heim",
+    "opponent": "FC Augsburg",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "freikarten",
+    "id": "freikarten-ende|heim|FC Augsburg|2026/27",
+    "title": "⏰ Letzte Chance: Freikarten aktive Mitglieder Heim vs FC Augsburg",
+    "start": {
+      "d": 7,
+      "mo": 9,
+      "y": 2026,
+      "h": 9,
+      "mi": 30
+    },
+    "durationMin": 60,
+    "alarms": [
+      "-P1D",
+      "-PT1H"
+    ],
+    "description": "Die Freikarten aktive Mitglieder endet voraussichtlich am 07.09.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: FC Augsburg\nSpieltermin: Sa., 19.09.26, 15:30 Uhr\nFreikarten aktive Mitglieder: 10.08.2026, 10:30 Uhr - max. 07.09.2026, 10:30 Uhr\nHinweis: Bestellannahme wegen hoher Nachfrage vorzeitig beendet.\nhttps://www.werder.de/tickets/maenner/heimspiele"
   }
 }

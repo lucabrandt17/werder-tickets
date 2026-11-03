@@ -2,59 +2,322 @@
 <html lang="de">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Werder Ticket-Fristen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <title>Werder Fristen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    :root { --bg: #f4f7f5; --card: #fff; --text: #14231b; --muted: #5b6b62; --green: #1d9053; --border: #dde5e0; }
-    @media (prefers-color-scheme: dark) {
-      :root { --bg: #0e1612; --card: #17221c; --text: #e8f0eb; --muted: #9db0a5; --green: #34c47a; --border: #26352d; }
+    :root {
+      --green: #1d9053;
+      --green-soft: rgba(29, 144, 83, .12);
+      --bg: #f2f2f7;
+      --group: #ffffff;
+      --label: #000000;
+      --secondary: rgba(60, 60, 67, .6);
+      --tertiary: rgba(60, 60, 67, .3);
+      --separator: rgba(60, 60, 67, .18);
+      --fill: rgba(120, 120, 128, .12);
     }
-    * { box-sizing: border-box; }
-    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 -apple-system, system-ui, "Segoe UI", sans-serif; }
-    main { max-width: 560px; margin: 0 auto; padding: 32px 16px 48px; }
-    h1 { font-size: 1.6rem; margin: 0 0 4px; }
-    .sub { color: var(--muted); margin: 0 0 24px; }
-    .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px; margin-bottom: 16px; }
-    .btn { display: block; text-align: center; background: var(--green); color: #fff; text-decoration: none; font-weight: 600; padding: 14px; border-radius: 10px; margin: 12px 0 8px; }
-    .btn.alt { background: transparent; color: var(--green); border: 1.5px solid var(--green); }
-    ol { padding-left: 20px; margin: 8px 0 0; }
-    li { margin-bottom: 6px; }
-    code { word-break: break-all; font-size: .85em; color: var(--muted); }
-    h2 { font-size: 1.05rem; margin: 0 0 4px; }
-    small { color: var(--muted); }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --green: #30b46c;
+        --green-soft: rgba(48, 180, 108, .18);
+        --bg: #000000;
+        --group: #1c1c1e;
+        --label: #ffffff;
+        --secondary: rgba(235, 235, 245, .6);
+        --tertiary: rgba(235, 235, 245, .3);
+        --separator: rgba(84, 84, 88, .6);
+        --fill: rgba(118, 118, 128, .24);
+      }
+    }
+    * { box-sizing: border-box; margin: 0; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      background: var(--bg);
+      color: var(--label);
+      font: 17px/1.35 -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, "Segoe UI", sans-serif;
+      letter-spacing: -.01em;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: max(48px, env(safe-area-inset-top)) 16px max(40px, env(safe-area-inset-bottom));
+    }
+
+    /* Kopf */
+    .hero { text-align: center; padding: 8px 0 32px; }
+    .icon {
+      width: 88px; height: 88px; margin: 0 auto 20px;
+      border-radius: 22px;
+      background: linear-gradient(160deg, #2bb36a 0%, #1d9053 55%, #136b3c 100%);
+      box-shadow: 0 10px 30px rgba(29, 144, 83, .35), inset 0 1px 0 rgba(255, 255, 255, .25);
+      display: grid; place-items: center;
+    }
+    .icon svg { width: 46px; height: 46px; }
+    h1 {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", Inter, sans-serif;
+      font-size: 34px; font-weight: 700; letter-spacing: -.025em; line-height: 1.1;
+    }
+    .lede { color: var(--secondary); margin: 10px auto 0; max-width: 34ch; }
+
+    .button {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      height: 52px; border-radius: 14px;
+      background: var(--green); color: #fff;
+      font-weight: 600; font-size: 17px; text-decoration: none;
+      transition: transform .15s ease, filter .15s ease;
+    }
+    .button:active { transform: scale(.98); filter: brightness(.92); }
+    .button svg { width: 20px; height: 20px; }
+    .hero .button { margin-top: 28px; }
+
+    /* Gruppierte Listen im iOS-Stil */
+    .section { margin-top: 36px; }
+    .section-title {
+      font-size: 13px; text-transform: uppercase; letter-spacing: .02em;
+      color: var(--secondary); padding: 0 16px 7px;
+    }
+    .section-foot { font-size: 13px; color: var(--secondary); padding: 7px 16px 0; }
+    .group { background: var(--group); border-radius: 12px; overflow: hidden; }
+    .row {
+      display: flex; align-items: center; gap: 14px;
+      padding: 11px 16px; min-height: 44px; position: relative;
+      color: inherit; text-decoration: none;
+    }
+    .row + .row::before {
+      content: ""; position: absolute; top: 0; right: 0; left: var(--inset, 16px);
+      border-top: .5px solid var(--separator);
+    }
+    .row-main { flex: 1; min-width: 0; }
+    .row-title { font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .row-sub { font-size: 15px; color: var(--secondary); margin-top: 1px; }
+    .chevron { color: var(--tertiary); flex: none; width: 8px; }
+
+    /* Kalenderblatt */
+    .date {
+      flex: none; width: 46px; text-align: center;
+      border-radius: 10px; background: var(--fill); padding: 5px 0 6px;
+    }
+    .date-m { font-size: 11px; font-weight: 600; text-transform: uppercase; color: var(--green); letter-spacing: .04em; }
+    .date-d { font-size: 22px; font-weight: 600; line-height: 1.05; letter-spacing: -.02em; }
+    .events .row { --inset: 76px; }
+
+    .chip {
+      flex: none; font-size: 13px; font-weight: 600;
+      padding: 4px 9px; border-radius: 99px;
+      background: var(--fill); color: var(--secondary);
+    }
+    .chip.live { background: var(--green-soft); color: var(--green); }
+    .chip.live::before {
+      content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+      background: currentColor; margin-right: 5px; vertical-align: 1px;
+      animation: pulse 1.6s ease-in-out infinite;
+    }
+    @keyframes pulse { 50% { opacity: .35; } }
+
+    .empty { padding: 16px; color: var(--secondary); text-align: center; }
+
+    /* Schritte */
+    .step {
+      flex: none; width: 28px; height: 28px; border-radius: 50%;
+      background: var(--green); color: #fff; font-size: 15px; font-weight: 600;
+      display: grid; place-items: center;
+    }
+    .steps .row { --inset: 58px; align-items: flex-start; }
+    .steps .row-main { padding-top: 3px; }
+    .steps b { font-weight: 600; }
+
+    .glyph {
+      flex: none; width: 29px; height: 29px; border-radius: 7px;
+      display: grid; place-items: center; color: #fff;
+    }
+    .glyph svg { width: 17px; height: 17px; }
+    .links .row { --inset: 59px; }
+    .link-label { color: var(--green); }
+    .copied { color: var(--green); font-size: 15px; }
+
+    footer { text-align: center; font-size: 13px; color: var(--tertiary); margin-top: 40px; line-height: 1.5; }
+    footer a { color: var(--secondary); }
+
+    @media (min-width: 640px) {
+      main { padding-top: 72px; }
+      h1 { font-size: 40px; }
+    }
   </style>
 </head>
 <body>
 <main>
-  <h1>🟢⚪ Werder Ticket-Fristen</h1>
-  <p class="sub">Bestellphasen, Freikarten und Restkarten-Starts von werder.de – automatisch im Kalender, mit Erinnerung.</p>
+  <header class="hero">
+    <div class="icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 9a2 2 0 0 0 0 6v3a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-3a2 2 0 0 1 0-6V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1z"/>
+        <path d="M14 5v2M14 11v2M14 17v2"/>
+      </svg>
+    </div>
+    <h1>Werder Fristen</h1>
+    <p class="lede">Alle Bestellphasen, Freikarten und Restkarten-Starts automatisch in deinem Kalender.</p>
+    <a class="button" id="subscribe" href="#">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+      Kalender abonnieren
+    </a>
+  </header>
 
-  <div class="card">
-    <h2>iPhone / Mac</h2>
-    <a class="btn" id="webcal" href="#">Kalender abonnieren</a>
-    <ol>
-      <li>Button tippen → „Abonnieren“.</li>
-      <li><b>„Hinweise entfernen“ ausschalten</b>, sonst kommen keine Erinnerungen.</li>
-      <li>Fertig. Neue Fristen tauchen von allein auf.</li>
-    </ol>
-  </div>
+  <section class="section">
+    <h2 class="section-title">Als Nächstes</h2>
+    <div class="group events" id="events"><div class="empty">Lade Termine …</div></div>
+    <p class="section-foot" id="updated"></p>
+  </section>
 
-  <div class="card">
-    <h2>Google / Outlook / Android</h2>
-    <a class="btn alt" id="google" href="#">In Google Kalender öffnen</a>
-    <small>Oder diese Adresse bei „Kalender per URL hinzufügen“ einfügen:</small><br>
-    <code id="url"></code>
-  </div>
+  <section class="section">
+    <h2 class="section-title">So geht's auf dem iPhone</h2>
+    <div class="group steps">
+      <div class="row"><span class="step">1</span><div class="row-main">Oben auf <b>Kalender abonnieren</b> tippen und bestätigen.</div></div>
+      <div class="row"><span class="step">2</span><div class="row-main"><b>Hinweise entfernen</b> ausschalten, sonst gibt's keine Erinnerungen.</div></div>
+      <div class="row"><span class="step">3</span><div class="row-main">Fertig. Neue Fristen erscheinen von selbst.</div></div>
+    </div>
+  </section>
 
-  <p><small>Inoffiziell und ohne Gewähr – maßgeblich ist immer
-    <a href="https://www.werder.de/tickets/maenner/heimspiele">werder.de</a>.</small></p>
+  <section class="section">
+    <h2 class="section-title">Andere Kalender</h2>
+    <div class="group links">
+      <a class="row" id="google" href="#" target="_blank" rel="noopener">
+        <span class="glyph" style="background:#4285f4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg></span>
+        <span class="row-main link-label">Google Kalender</span>
+        <svg class="chevron" viewBox="0 0 8 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m1 1 6 6-6 6"/></svg>
+      </a>
+      <button class="row" id="copy" type="button" style="width:100%;border:0;background:none;font:inherit;text-align:left;cursor:pointer">
+        <span class="glyph" style="background:#8e8e93"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></span>
+        <span class="row-main link-label">Link kopieren <span class="row-sub" style="display:block">Outlook, Android & Co.</span></span>
+        <span class="copied" id="copied" hidden>Kopiert</span>
+      </button>
+    </div>
+  </section>
+
+  <footer>
+    Inoffiziell, automatisch erstellt und ohne Gewähr.<br>
+    Maßgeblich ist <a href="https://www.werder.de/tickets/maenner/heimspiele">werder.de</a>.
+  </footer>
 </main>
+
 <script>
-  const ics = new URL('werder-tickets.ics', location.href).href;
-  const webcal = ics.replace(/^https?:/, 'webcal:');
-  document.getElementById('webcal').href = webcal;
+  const icsUrl = new URL('werder-tickets.ics', location.href).href;
+  const webcal = icsUrl.replace(/^https?:/, 'webcal:');
+  document.getElementById('subscribe').href = webcal;
   document.getElementById('google').href = 'https://calendar.google.com/calendar/render?cid=' + encodeURIComponent(webcal);
-  document.getElementById('url').textContent = ics;
+  document.getElementById('copy').addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(icsUrl);
+      const el = document.getElementById('copied');
+      el.hidden = false;
+      setTimeout(() => (el.hidden = true), 1800);
+    } catch { prompt('Kalender-Adresse:', icsUrl); }
+  });
+
+  const MONTHS = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
+  const DAYS = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+
+  function parseIcs(text) {
+    const lines = text.replace(/\r?\n[ \t]/g, '').split(/\r?\n/);
+    const events = [];
+    let ev = null;
+    for (const line of lines) {
+      if (line === 'BEGIN:VEVENT') ev = {};
+      else if (line === 'END:VEVENT') { events.push(ev); ev = null; }
+      else if (ev && !ev.inAlarm) {
+        if (line === 'BEGIN:VALARM') { ev.inAlarm = true; continue; }
+        const i = line.indexOf(':');
+        const key = line.slice(0, i).split(';')[0];
+        const val = line.slice(i + 1).replace(/\\n/g, '\n').replace(/\\([,;\\])/g, '$1');
+        if (key === 'DTSTART' || key === 'DTEND') {
+          const m = val.match(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})/);
+          ev[key] = new Date(+m[1], m[2] - 1, +m[3], +m[4], +m[5]);
+        } else ev[key] = val;
+      } else if (ev && line === 'END:VALARM') ev.inAlarm = false;
+    }
+    return events;
+  }
+
+  // Aus den Einzelterminen (Start / Letzte Chance / Restkarten) Einträge für die Liste bauen.
+  function toItems(events, now) {
+    const starts = new Map(), ends = new Map(), items = [];
+    for (const e of events) {
+      const title = (e.SUMMARY || '').replace(/^\S+\s/, '');
+      let m;
+      if ((m = title.match(/^(.+?) startet: (Heim|Auswärts) vs (.+)$/)))
+        starts.set(m[1] + m[2] + m[3], { label: m[1].replace(' aktive Mitglieder', ''), venue: m[2], team: m[3], at: e.DTSTART });
+      else if ((m = title.match(/^Letzte Chance: (.+?) (Heim|Auswärts) vs (.+)$/))) ends.set(m[1] + m[2] + m[3], e.DTEND);
+      else if ((m = title.match(/^Restkarten: (Heim|Auswärts) vs (.+?)( \(nur Mitglieder\))?$/)))
+        items.push({ kind: 'rest', venue: m[1], team: m[2], label: 'Restkarten' + (m[3] ? ' · nur Mitglieder' : ''), at: e.DTSTART, end: e.DTEND });
+    }
+    for (const [key, s] of starts) items.push({ kind: 'phase', ...s, end: ends.get(key) || null });
+
+    return items
+      .map((it) => {
+        const live = it.kind === 'phase' ? it.at <= now && it.end && it.end > now : it.at <= now && it.end > now;
+        return { ...it, live, sortAt: live ? it.end : it.at };
+      })
+      .filter((it) => it.live || it.at > now)
+      .sort((a, b) => (b.live - a.live) || (a.sortAt - b.sortAt))
+      .slice(0, 6);
+  }
+
+  const two = (n) => String(n).padStart(2, '0');
+  const time = (d) => `${two(d.getHours())}:${two(d.getMinutes())}`;
+  const shortDate = (d) => `${DAYS[d.getDay()]}, ${d.getDate()}. ${MONTHS[d.getMonth()]}`;
+
+  function relative(d, now) {
+    const days = Math.round((new Date(d.getFullYear(), d.getMonth(), d.getDate()) - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 864e5);
+    if (days === 0) return 'Heute';
+    if (days === 1) return 'Morgen';
+    return days < 7 ? `in ${days} Tagen` : `in ${Math.round(days / 7)} Wo.`;
+  }
+
+  function render(items, now) {
+    const box = document.getElementById('events');
+    if (!items.length) { box.innerHTML = '<div class="empty">Gerade keine offenen Fristen.</div>'; return; }
+    box.innerHTML = '';
+    for (const it of items) {
+      const shown = it.live ? it.end : it.at;
+      const sub = it.live
+        ? `${it.venue}spiel · ${it.label} bis ${shortDate(it.end)}, ${time(it.end)}`
+        : `${it.venue}spiel · ${it.label} ab ${time(it.at)}`;
+      const row = document.createElement('div');
+      row.className = 'row';
+      row.innerHTML = `
+        <div class="date"><div class="date-m"></div><div class="date-d"></div></div>
+        <div class="row-main"><div class="row-title"></div><div class="row-sub"></div></div>
+        <span class="chip"></span>`;
+      row.querySelector('.date-m').textContent = MONTHS[shown.getMonth()];
+      row.querySelector('.date-d').textContent = shown.getDate();
+      row.querySelector('.row-title').textContent = it.team;
+      row.querySelector('.row-sub').textContent = sub;
+      const chip = row.querySelector('.chip');
+      chip.textContent = it.live ? 'Läuft' : relative(it.at, now);
+      chip.classList.toggle('live', it.live);
+      box.append(row);
+    }
+  }
+
+  fetch(icsUrl, { cache: 'no-cache' })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.text(); })
+    .then((text) => {
+      const now = new Date();
+      const events = parseIcs(text);
+      render(toItems(events, now), now);
+      const stamp = text.match(/DTSTAMP:(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})/);
+      if (stamp) {
+        const d = new Date(Date.UTC(+stamp[1], stamp[2] - 1, +stamp[3], +stamp[4], +stamp[5]));
+        document.getElementById('updated').textContent = `Zuletzt geändert am ${d.getDate()}. ${MONTHS[d.getMonth()]}, ${time(d)} Uhr · wird zweimal täglich geprüft`;
+      }
+    })
+    .catch(() => {
+      document.getElementById('events').innerHTML = '<div class="empty">Termine konnten nicht geladen werden.</div>';
+    });
 </script>
 </body>
 </html>

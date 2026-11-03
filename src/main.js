@@ -55,10 +55,12 @@ async function main() {
   const changed = Object.keys(store).filter(
     (id) => oldStore[id] && JSON.stringify(oldStore[id]) !== JSON.stringify(store[id]),
   );
-  log(`${fresh.length} Termine auf der Seite, ${added.length} neu, ${changed.length} geändert.`);
+  const removed = Object.keys(oldStore).filter((id) => !store[id]);
+  log(`${fresh.length} Termine auf der Seite, ${added.length} neu, ${changed.length} geändert, ${removed.length} entfernt.`);
   for (const id of added) log('  neu:', store[id].title, '–', fmt(store[id].start));
+  for (const id of removed) log('  entfernt:', oldStore[id].title);
 
-  if (added.length === 0 && changed.length === 0 && existsSync(ICS_OUT)) {
+  if (added.length === 0 && changed.length === 0 && removed.length === 0 && existsSync(ICS_OUT)) {
     log('Keine Änderungen.');
     return;
   }
@@ -71,7 +73,13 @@ async function main() {
 
   if (!push) return;
   git('add', 'data/events.json', 'docs/werder-tickets.ics');
-  const summary = added.length ? `${added.length} neue Termine` : `${changed.length} Termine aktualisiert`;
+  const summary = [
+    added.length && `${added.length} neu`,
+    changed.length && `${changed.length} geändert`,
+    removed.length && `${removed.length} entfernt`,
+  ]
+    .filter(Boolean)
+    .join(', ');
   git('commit', '-m', `Kalender-Update: ${summary}`);
   git('push');
   log('Gepusht.');
