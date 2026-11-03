@@ -10,4 +10,4 @@
 #
 # Termine mit Uhrzeit erinnern 2 Stunden vorher. Zeilen mit # werden ignoriert.
 # Nach dem Speichern ist der Kalender nach etwa einer Minute aktualisiert.
-
+14.11.2026 18:00 | TEST | Weserstadion
