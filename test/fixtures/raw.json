@@ -1,0 +1,379 @@
+{
+ "heim": [
+  {
+   "section": "Freikarten für aktive Mitglieder",
+   "headers": [
+    "Spieltermin",
+    "Partie",
+    "Bestellphase",
+    "weitere Informationen"
+   ],
+   "rows": [
+    [
+     "Sa., 19.09.26, 15:30 Uhr",
+     "FC Augsburg",
+     "10.08.2026, 10:30 Uhr - max. 07.09.2026, 10:30 Uhr",
+     "Bestellannahme wegen hoher Nachfrage vorzeitig beendet."
+    ],
+    [
+     "15. - 17.01.2027",
+     "SV Elversberg",
+     "10.08.2026, 10:30 Uhr - max. 04.01.2027, 10:30 Uhr",
+     "Bestellannahme wegen hoher Nachfrage vorzeitig beendet."
+    ],
+    [
+     "22. - 24.01.2027",
+     "SC Freiburg",
+     "Wird noch bekanntgegeben.",
+     "-"
+    ],
+    [
+     "02. - 04.03.2027",
+     "FSV Mainz 05",
+     "Wird noch bekanntgegeben.",
+     "-"
+    ]
+   ]
+  },
+  {
+   "section": "",
+   "headers": [
+    "Spiel",
+    "Bearbeitungsstand",
+    "Tickets im freien Verkauf",
+    "weitere Informationen"
+   ],
+   "rows": [
+    [
+     "Dauerkarte 2026/2027",
+     "-",
+     "-",
+     "Hier gelangen Sie zu Ihren Handy-Dauerkarten!"
+    ],
+    [
+     "FC Augsburg",
+     "Bearbeitung abgeschlossen",
+     "ja",
+     "Restkartenverkauf startet voraussichtlich am 26.08.2026 15:30 Uhr"
+    ],
+    [
+     "SC Paderborn 07",
+     "Bearbeitung abgeschlossen",
+     "ja",
+     "Restkartenverkauf startet voraussichtlich am 14.09.2026 15:30 Uhr"
+    ],
+    [
+     "TSG Hoffenheim",
+     "Bearbeitung abgeschlossen",
+     "ja",
+     "Aufgrund technischer Probleme startet der Restkartenverkauf voraussichtlich 07.10.2026 15:30 Uhr."
+    ],
+    [
+     "Hamburger SV",
+     "Bearbeitung läuft",
+     "nein",
+     "Restkartenverkauf startet voraussichtlich am 03.11.2026 10:30 Uhr - Nur für Mitglieder!"
+    ],
+    [
+     "Borussia M'gladbach",
+     "Bestellphase abgeschlossen",
+     "nein",
+     "-"
+    ],
+    [
+     "Bayer 04 Leverkusen",
+     "Bestellphase abgeschlossen",
+     "nein",
+     "-"
+    ],
+    [
+     "1. FC Union Berlin",
+     "Bestellphase läuft",
+     "nein",
+     "-"
+    ],
+    [
+     "SV Elversberg",
+     "-",
+     "-",
+     "-"
+    ]
+   ]
+  },
+  {
+   "section": "",
+   "headers": [
+    "Spieltermin",
+    "Partie",
+    "Bestellphase (nur für Mitglieder!)",
+    "weitere Informationen"
+   ],
+   "rows": [
+    [
+     "19.09.26, 15:30 Uhr",
+     "FC Augsburg",
+     "20.-30.07.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "17.10.26, 15:30 Uhr",
+     "SC Paderborn 07",
+     "20.-30.07.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "31.10.26, 15:30 Uhr",
+     "TSG Hoffenheim",
+     "20.-30.07.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "22.11.26, 17:30 Uhr",
+     "Hamburger SV",
+     "07.-14.09.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "27.11.26, 20:30 Uhr",
+     "Borussia M'gladbach",
+     "21.-28.09.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "11.-13.12.26",
+     "Bayer 04 Leverkusen",
+     "19.-26.10.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "08.-10.01.27",
+     "1. FC Union Berlin",
+     "02.-09.11.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "15.-17.01.27",
+     "SV Elversberg",
+     "23.-30.11.2026, 10:30 Uhr",
+     "-"
+    ]
+   ]
+  }
+ ],
+ "auswaerts": [
+  {
+   "section": "",
+   "headers": [
+    "Spiel",
+    "Bearbeitungsstand",
+    "Tickets im freien Verkauf",
+    "weitere Informationen"
+   ],
+   "rows": [
+    [
+     "VfB Stuttgart",
+     "Bearbeitung abgeschlossen",
+     "ja",
+     "ggf. Restkarten im Onlineshop"
+    ],
+    [
+     "Eintracht Frankfurt",
+     "Bearbeitung abgeschlossen",
+     "ja",
+     "Ggfs. Rückläufer-Tickets im Onlineshop"
+    ],
+    [
+     "FC Bayern München",
+     "Bearbeitung abgeschlossen",
+     "ja",
+     "Restkarten im Onlineshop ausschließlich für Mitglieder + Dauerkarteninhaber*innenTickets werden in einer weiteren Mail spätestens in der Woche vor dem Spiel verschickt."
+    ],
+    [
+     "FC Schalke 04",
+     "Bestellphase in Kürze",
+     "-",
+     "-"
+    ],
+    [
+     "RB Leipzig",
+     "-",
+     "-",
+     "-"
+    ],
+    [
+     "FC Augsburg",
+     "-",
+     "-",
+     "-"
+    ],
+    [
+     "SC Paderborn 07",
+     "-",
+     "-",
+     "-"
+    ],
+    [
+     "TSG Hoffenheim",
+     "-",
+     "-",
+     "-"
+    ],
+    [
+     "Hamburger SV",
+     "-",
+     "-",
+     "-"
+    ],
+    [
+     "Borussia M'gladbach",
+     "-",
+     "-",
+     "-"
+    ],
+    [
+     "Bayer 04 Leverkusen",
+     "-",
+     "-",
+     "-"
+    ],
+    [
+     "1. FC Union Berlin",
+     "-",
+     "-",
+     "-"
+    ],
+    [
+     "SV Elversberg",
+     "-",
+     "-",
+     "-"
+    ]
+   ]
+  },
+  {
+   "section": "",
+   "headers": [
+    "Spieltermin",
+    "Partie",
+    "Bestellphase",
+    ""
+   ],
+   "rows": [
+    [
+     "22.08.2026, Sa. 15.30 Uhr",
+     "DFB Pokal - LSK Hansa",
+     "15.-22.07.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "30.08.2026, So. 15:30 Uhr",
+     "Sport-Club Freiburg",
+     "20.-27.07.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "12.09.2026, Sa. 18:30 Uhr",
+     "1. FC Köln",
+     "20.-27.07.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "09.10.2026, Fr. 20.30 Uhr",
+     "Borussia Dortmund",
+     "27.07.-03.08.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "24.10.2026, Sa. 15.30 Uhr",
+     "1. FSV Mainz 05",
+     "27.07.-03.08.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "27.10.2026, Di. 20.45 Uhr",
+     "DFB Pokal - Borussia Dortmund",
+     "16.-23.09.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "07.11.2026, Sa. 18.30 Uhr",
+     "VfB Stuttgart",
+     "21.-28.09.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "04.-06.12.26",
+     "Eintracht Frankfurt",
+     "28.09.-05.10.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "18.-20.12.26",
+     "FC Bayern München",
+     "28.09.-05.10.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "12.-14.01.27",
+     "FC Schalke 04",
+     "09.-16.11.2026, 10:30 Uhr",
+     "-"
+    ],
+    [
+     "29.-31.01.27",
+     "RB Leipzig",
+     "-",
+     "-"
+    ],
+    [
+     "12.-14.02.27",
+     "FC Augsburg",
+     "-",
+     "-"
+    ],
+    [
+     "26.-28.02.27",
+     "SC Paderborn 07",
+     "-",
+     "-"
+    ],
+    [
+     "05.-07.03.27",
+     "TSG Hoffenheim",
+     "-",
+     "-"
+    ],
+    [
+     "19.-21.03.27",
+     "Hamburger SV",
+     "-",
+     "-"
+    ],
+    [
+     "02.-04.04.27",
+     "Borussia M'gladbach",
+     "-",
+     "-"
+    ],
+    [
+     "16.-18.04.27",
+     "Bayer 04 Leverkusen",
+     "-",
+     "-"
+    ],
+    [
+     "07.-09.05.27",
+     "1. FC Union Berlin",
+     "-",
+     "-"
+    ],
+    [
+     "22.05.27, Sa. 15.30 Uhr",
+     "SV Elversberg",
+     "-",
+     "-"
+    ]
+   ]
+  }
+ ]
+}

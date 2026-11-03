@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Werder Ticket-Fristen</title>
+  <style>
+    :root { --bg: #f4f7f5; --card: #fff; --text: #14231b; --muted: #5b6b62; --green: #1d9053; --border: #dde5e0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0e1612; --card: #17221c; --text: #e8f0eb; --muted: #9db0a5; --green: #34c47a; --border: #26352d; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 -apple-system, system-ui, "Segoe UI", sans-serif; }
+    main { max-width: 560px; margin: 0 auto; padding: 32px 16px 48px; }
+    h1 { font-size: 1.6rem; margin: 0 0 4px; }
+    .sub { color: var(--muted); margin: 0 0 24px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px; margin-bottom: 16px; }
+    .btn { display: block; text-align: center; background: var(--green); color: #fff; text-decoration: none; font-weight: 600; padding: 14px; border-radius: 10px; margin: 12px 0 8px; }
+    .btn.alt { background: transparent; color: var(--green); border: 1.5px solid var(--green); }
+    ol { padding-left: 20px; margin: 8px 0 0; }
+    li { margin-bottom: 6px; }
+    code { word-break: break-all; font-size: .85em; color: var(--muted); }
+    h2 { font-size: 1.05rem; margin: 0 0 4px; }
+    small { color: var(--muted); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>🟢⚪ Werder Ticket-Fristen</h1>
+  <p class="sub">Bestellphasen, Freikarten und Restkarten-Starts von werder.de – automatisch im Kalender, mit Erinnerung.</p>
+
+  <div class="card">
+    <h2>iPhone / Mac</h2>
+    <a class="btn" id="webcal" href="#">Kalender abonnieren</a>
+    <ol>
+      <li>Button tippen → „Abonnieren“.</li>
+      <li><b>„Hinweise entfernen“ ausschalten</b>, sonst kommen keine Erinnerungen.</li>
+      <li>Fertig. Neue Fristen tauchen von allein auf.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Google / Outlook / Android</h2>
+    <a class="btn alt" id="google" href="#">In Google Kalender öffnen</a>
+    <small>Oder diese Adresse bei „Kalender per URL hinzufügen“ einfügen:</small><br>
+    <code id="url"></code>
+  </div>
+
+  <p><small>Inoffiziell und ohne Gewähr – maßgeblich ist immer
+    <a href="https://www.werder.de/tickets/maenner/heimspiele">werder.de</a>.</small></p>
+</main>
+<script>
+  const ics = new URL('werder-tickets.ics', location.href).href;
+  const webcal = ics.replace(/^https?:/, 'webcal:');
+  document.getElementById('webcal').href = webcal;
+  document.getElementById('google').href = 'https://calendar.google.com/calendar/render?cid=' + encodeURIComponent(webcal);
+  document.getElementById('url').textContent = ics;
+</script>
+</body>
+</html>

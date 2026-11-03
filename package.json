@@ -1,0 +1,15 @@
+{
+  "name": "werder-tickets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Liest die Werder-Bestellfristen aus und erzeugt daraus ein abonnierbares Kalender-Feed (.ics).",
+  "type": "module",
+  "scripts": {
+    "update": "node src/main.js",
+    "dry": "node src/main.js --no-push",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "playwright-core": "^1.48.0"
+  }
+}
