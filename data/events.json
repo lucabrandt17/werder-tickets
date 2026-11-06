@@ -888,7 +888,7 @@
     "id": "fristen-start|auswaerts|FC Schalke 04|2026/27",
     "title": "🎟️ Bestellphase startet: Auswärts vs FC Schalke 04",
     "start": {
-      "d": 9,
+      "d": 11,
       "mo": 11,
       "y": 2026,
       "h": 10,
@@ -899,7 +899,7 @@
       "-P1D",
       "-PT15M"
     ],
-    "description": "Auswärtsspiel: FC Schalke 04\nSpieltermin: 14.01.2027, Do. 20.30 Uhr\nBestellphase: 09.-16.11.2026, 10:30 Uhr\nBearbeitungsstand: Bestellphase in Kürze\nhttps://www.werder.de/tickets/maenner/auswaertsspiele"
+    "description": "Auswärtsspiel: FC Schalke 04\nSpieltermin: 14.01.2027, Do. 20.30 Uhr\nBestellphase: 11.-18.11.2026, 10:30 Uhr\nHinweis: Beginn verschoben von Montag auf Mittwoch\nBearbeitungsstand: Bestellphase in Kürze\nhttps://www.werder.de/tickets/maenner/auswaertsspiele"
   },
   "fristen-ende|auswaerts|FC Schalke 04|2026/27": {
     "venue": "auswaerts",
@@ -910,7 +910,7 @@
     "id": "fristen-ende|auswaerts|FC Schalke 04|2026/27",
     "title": "⏰ Letzte Chance: Bestellphase Auswärts vs FC Schalke 04",
     "start": {
-      "d": 16,
+      "d": 18,
       "mo": 11,
       "y": 2026,
       "h": 9,
@@ -921,7 +921,7 @@
       "-P1D",
       "-PT1H"
     ],
-    "description": "Die Bestellphase endet voraussichtlich am 16.11.2026, 10:30 Uhr – lieber vorher bestellen!\nAuswärtsspiel: FC Schalke 04\nSpieltermin: 14.01.2027, Do. 20.30 Uhr\nBestellphase: 09.-16.11.2026, 10:30 Uhr\nBearbeitungsstand: Bestellphase in Kürze\nhttps://www.werder.de/tickets/maenner/auswaertsspiele"
+    "description": "Die Bestellphase endet voraussichtlich am 18.11.2026, 10:30 Uhr – lieber vorher bestellen!\nAuswärtsspiel: FC Schalke 04\nSpieltermin: 14.01.2027, Do. 20.30 Uhr\nBestellphase: 11.-18.11.2026, 10:30 Uhr\nHinweis: Beginn verschoben von Montag auf Mittwoch\nBearbeitungsstand: Bestellphase in Kürze\nhttps://www.werder.de/tickets/maenner/auswaertsspiele"
   },
   "freikarten-ende|heim|FC Augsburg|2026/27": {
     "venue": "heim",
