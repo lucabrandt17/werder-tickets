@@ -43,17 +43,17 @@
     ],
     "description": "Heimspiel: SV Elversberg\nSpieltermin: 15. - 17.01.2027\nFreikarten aktive Mitglieder: 10.08.2026, 10:30 Uhr - max. 04.01.2027, 10:30 Uhr\nHinweis: Bestellannahme wegen hoher Nachfrage vorzeitig beendet.\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
-  "fristen-start|heim|FC Augsburg|2026/27": {
+  "freikarten-start|heim|SC Freiburg|2026/27": {
     "venue": "heim",
-    "opponent": "FC Augsburg",
+    "opponent": "SC Freiburg",
     "season": "2026/27",
     "url": "https://www.werder.de/tickets/maenner/heimspiele",
-    "kind": "fristen",
-    "id": "fristen-start|heim|FC Augsburg|2026/27",
-    "title": "🎟️ Bestellphase startet: Heim vs FC Augsburg",
+    "kind": "freikarten",
+    "id": "freikarten-start|heim|SC Freiburg|2026/27",
+    "title": "🎟️ Freikarten aktive Mitglieder startet: Heim vs SC Freiburg",
     "start": {
-      "d": 20,
-      "mo": 7,
+      "d": 7,
+      "mo": 12,
       "y": 2026,
       "h": 10,
       "mi": 30
@@ -63,20 +63,20 @@
       "-P1D",
       "-PT15M"
     ],
-    "description": "Heimspiel: FC Augsburg\nSpieltermin: 19.09.26, 15:30 Uhr\nBestellphase: 20.-30.07.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Heimspiel: SC Freiburg\nSpieltermin: 22. - 24.01.2027\nFreikarten aktive Mitglieder: 07.12.2026, 10:30 Uhr - max. 11.01.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
-  "fristen-ende|heim|FC Augsburg|2026/27": {
+  "freikarten-ende|heim|SC Freiburg|2026/27": {
     "venue": "heim",
-    "opponent": "FC Augsburg",
+    "opponent": "SC Freiburg",
     "season": "2026/27",
     "url": "https://www.werder.de/tickets/maenner/heimspiele",
-    "kind": "fristen",
-    "id": "fristen-ende|heim|FC Augsburg|2026/27",
-    "title": "⏰ Letzte Chance: Bestellphase Heim vs FC Augsburg",
+    "kind": "freikarten",
+    "id": "freikarten-ende|heim|SC Freiburg|2026/27",
+    "title": "⏰ Letzte Chance: Freikarten aktive Mitglieder Heim vs SC Freiburg",
     "start": {
-      "d": 30,
-      "mo": 7,
-      "y": 2026,
+      "d": 11,
+      "mo": 1,
+      "y": 2027,
       "h": 9,
       "mi": 30
     },
@@ -85,20 +85,20 @@
       "-P1D",
       "-PT1H"
     ],
-    "description": "Die Bestellphase endet voraussichtlich am 30.07.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: FC Augsburg\nSpieltermin: 19.09.26, 15:30 Uhr\nBestellphase: 20.-30.07.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Die Freikarten aktive Mitglieder endet voraussichtlich am 11.01.2027, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: SC Freiburg\nSpieltermin: 22. - 24.01.2027\nFreikarten aktive Mitglieder: 07.12.2026, 10:30 Uhr - max. 11.01.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
-  "fristen-start|heim|SC Paderborn 07|2026/27": {
+  "freikarten-start|heim|FSV Mainz 05|2026/27": {
     "venue": "heim",
-    "opponent": "SC Paderborn 07",
+    "opponent": "FSV Mainz 05",
     "season": "2026/27",
     "url": "https://www.werder.de/tickets/maenner/heimspiele",
-    "kind": "fristen",
-    "id": "fristen-start|heim|SC Paderborn 07|2026/27",
-    "title": "🎟️ Bestellphase startet: Heim vs SC Paderborn 07",
+    "kind": "freikarten",
+    "id": "freikarten-start|heim|FSV Mainz 05|2026/27",
+    "title": "🎟️ Freikarten aktive Mitglieder startet: Heim vs FSV Mainz 05",
     "start": {
-      "d": 20,
-      "mo": 7,
-      "y": 2026,
+      "d": 25,
+      "mo": 1,
+      "y": 2027,
       "h": 10,
       "mi": 30
     },
@@ -107,20 +107,20 @@
       "-P1D",
       "-PT15M"
     ],
-    "description": "Heimspiel: SC Paderborn 07\nSpieltermin: 17.10.26, 15:30 Uhr\nBestellphase: 20.-30.07.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Heimspiel: FSV Mainz 05\nSpieltermin: 02. - 04.03.2027\nFreikarten aktive Mitglieder: 25.01.2027, 10:30 Uhr - max. 17.02.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
-  "fristen-ende|heim|SC Paderborn 07|2026/27": {
+  "freikarten-ende|heim|FSV Mainz 05|2026/27": {
     "venue": "heim",
-    "opponent": "SC Paderborn 07",
+    "opponent": "FSV Mainz 05",
     "season": "2026/27",
     "url": "https://www.werder.de/tickets/maenner/heimspiele",
-    "kind": "fristen",
-    "id": "fristen-ende|heim|SC Paderborn 07|2026/27",
-    "title": "⏰ Letzte Chance: Bestellphase Heim vs SC Paderborn 07",
+    "kind": "freikarten",
+    "id": "freikarten-ende|heim|FSV Mainz 05|2026/27",
+    "title": "⏰ Letzte Chance: Freikarten aktive Mitglieder Heim vs FSV Mainz 05",
     "start": {
-      "d": 30,
-      "mo": 7,
-      "y": 2026,
+      "d": 17,
+      "mo": 2,
+      "y": 2027,
       "h": 9,
       "mi": 30
     },
@@ -129,51 +129,7 @@
       "-P1D",
       "-PT1H"
     ],
-    "description": "Die Bestellphase endet voraussichtlich am 30.07.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: SC Paderborn 07\nSpieltermin: 17.10.26, 15:30 Uhr\nBestellphase: 20.-30.07.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
-  },
-  "fristen-start|heim|TSG Hoffenheim|2026/27": {
-    "venue": "heim",
-    "opponent": "TSG Hoffenheim",
-    "season": "2026/27",
-    "url": "https://www.werder.de/tickets/maenner/heimspiele",
-    "kind": "fristen",
-    "id": "fristen-start|heim|TSG Hoffenheim|2026/27",
-    "title": "🎟️ Bestellphase startet: Heim vs TSG Hoffenheim",
-    "start": {
-      "d": 20,
-      "mo": 7,
-      "y": 2026,
-      "h": 10,
-      "mi": 30
-    },
-    "durationMin": 30,
-    "alarms": [
-      "-P1D",
-      "-PT15M"
-    ],
-    "description": "Heimspiel: TSG Hoffenheim\nSpieltermin: 31.10.26, 15:30 Uhr\nBestellphase: 20.-30.07.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
-  },
-  "fristen-ende|heim|TSG Hoffenheim|2026/27": {
-    "venue": "heim",
-    "opponent": "TSG Hoffenheim",
-    "season": "2026/27",
-    "url": "https://www.werder.de/tickets/maenner/heimspiele",
-    "kind": "fristen",
-    "id": "fristen-ende|heim|TSG Hoffenheim|2026/27",
-    "title": "⏰ Letzte Chance: Bestellphase Heim vs TSG Hoffenheim",
-    "start": {
-      "d": 30,
-      "mo": 7,
-      "y": 2026,
-      "h": 9,
-      "mi": 30
-    },
-    "durationMin": 60,
-    "alarms": [
-      "-P1D",
-      "-PT1H"
-    ],
-    "description": "Die Bestellphase endet voraussichtlich am 30.07.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: TSG Hoffenheim\nSpieltermin: 31.10.26, 15:30 Uhr\nBestellphase: 20.-30.07.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Die Freikarten aktive Mitglieder endet voraussichtlich am 17.02.2027, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: FSV Mainz 05\nSpieltermin: 02. - 04.03.2027\nFreikarten aktive Mitglieder: 25.01.2027, 10:30 Uhr - max. 17.02.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-start|heim|Hamburger SV|2026/27": {
     "venue": "heim",
@@ -283,7 +239,7 @@
       "-P1D",
       "-PT15M"
     ],
-    "description": "Heimspiel: Bayer 04 Leverkusen\nSpieltermin: 13.12.26, 19:30 Uhr\nBestellphase: 19.-26.10.2026, 10:30 Uhr\nBearbeitungsstand: Bestellphase abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Heimspiel: Bayer 04 Leverkusen\nSpieltermin: 13.12.26, 19:30 Uhr\nBestellphase: 19.-26.10.2026, 10:30 Uhr\nBearbeitungsstand: in Bearbeitung\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-ende|heim|Bayer 04 Leverkusen|2026/27": {
     "venue": "heim",
@@ -305,7 +261,7 @@
       "-P1D",
       "-PT1H"
     ],
-    "description": "Die Bestellphase endet voraussichtlich am 26.10.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: Bayer 04 Leverkusen\nSpieltermin: 13.12.26, 19:30 Uhr\nBestellphase: 19.-26.10.2026, 10:30 Uhr\nBearbeitungsstand: Bestellphase abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Die Bestellphase endet voraussichtlich am 26.10.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: Bayer 04 Leverkusen\nSpieltermin: 13.12.26, 19:30 Uhr\nBestellphase: 19.-26.10.2026, 10:30 Uhr\nBearbeitungsstand: in Bearbeitung\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-start|heim|1. FC Union Berlin|2026/27": {
     "venue": "heim",
@@ -327,7 +283,7 @@
       "-P1D",
       "-PT15M"
     ],
-    "description": "Heimspiel: 1. FC Union Berlin\nSpieltermin: 10.01.27, 15:30 Uhr\nBestellphase: 02.-09.11.2026, 10:30 Uhr\nBearbeitungsstand: Bestellphase läuft\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Heimspiel: 1. FC Union Berlin\nSpieltermin: 10.01.27, 15:30 Uhr\nBestellphase: 02.-09.11.2026, 10:30 Uhr\nBearbeitungsstand: Bestellphase abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-ende|heim|1. FC Union Berlin|2026/27": {
     "venue": "heim",
@@ -349,7 +305,7 @@
       "-P1D",
       "-PT1H"
     ],
-    "description": "Die Bestellphase endet voraussichtlich am 09.11.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: 1. FC Union Berlin\nSpieltermin: 10.01.27, 15:30 Uhr\nBestellphase: 02.-09.11.2026, 10:30 Uhr\nBearbeitungsstand: Bestellphase läuft\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Die Bestellphase endet voraussichtlich am 09.11.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: 1. FC Union Berlin\nSpieltermin: 10.01.27, 15:30 Uhr\nBestellphase: 02.-09.11.2026, 10:30 Uhr\nBearbeitungsstand: Bestellphase abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-start|heim|SV Elversberg|2026/27": {
     "venue": "heim",
@@ -395,71 +351,357 @@
     ],
     "description": "Die Bestellphase endet voraussichtlich am 30.11.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: SV Elversberg\nSpieltermin: 17.01.27, 15:30 Uhr\nBestellphase: 23.-30.11.2026, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
-  "restkarten|heim|FC Augsburg|2026/27": {
+  "fristen-start|heim|Sport-Club Freiburg|2026/27": {
     "venue": "heim",
-    "opponent": "FC Augsburg",
+    "opponent": "Sport-Club Freiburg",
     "season": "2026/27",
     "url": "https://www.werder.de/tickets/maenner/heimspiele",
-    "kind": "restkarten",
-    "id": "restkarten|heim|FC Augsburg|2026/27",
-    "title": "🎫 Restkarten: Heim vs FC Augsburg",
+    "kind": "fristen",
+    "id": "fristen-start|heim|Sport-Club Freiburg|2026/27",
+    "title": "🎟️ Bestellphase startet: Heim vs Sport-Club Freiburg",
     "start": {
-      "d": 26,
-      "mo": 8,
+      "d": 30,
+      "mo": 11,
       "y": 2026,
-      "h": 15,
+      "h": 10,
       "mi": 30
     },
     "durationMin": 30,
     "alarms": [
-      "-PT1H",
-      "-PT5M"
+      "-P1D",
+      "-PT15M"
     ],
-    "description": "Heimspiel: FC Augsburg\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Restkartenverkauf startet voraussichtlich am 26.08.2026 15:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Heimspiel: Sport-Club Freiburg\nSpieltermin: 22.01.2027, 20:30 Uhr\nBestellphase: 30.11.-07.12.2026, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
-  "restkarten|heim|SC Paderborn 07|2026/27": {
+  "fristen-ende|heim|Sport-Club Freiburg|2026/27": {
     "venue": "heim",
-    "opponent": "SC Paderborn 07",
+    "opponent": "Sport-Club Freiburg",
     "season": "2026/27",
     "url": "https://www.werder.de/tickets/maenner/heimspiele",
-    "kind": "restkarten",
-    "id": "restkarten|heim|SC Paderborn 07|2026/27",
-    "title": "🎫 Restkarten: Heim vs SC Paderborn 07",
-    "start": {
-      "d": 14,
-      "mo": 9,
-      "y": 2026,
-      "h": 15,
-      "mi": 30
-    },
-    "durationMin": 30,
-    "alarms": [
-      "-PT1H",
-      "-PT5M"
-    ],
-    "description": "Heimspiel: SC Paderborn 07\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Restkartenverkauf startet voraussichtlich am 14.09.2026 15:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
-  },
-  "restkarten|heim|TSG Hoffenheim|2026/27": {
-    "venue": "heim",
-    "opponent": "TSG Hoffenheim",
-    "season": "2026/27",
-    "url": "https://www.werder.de/tickets/maenner/heimspiele",
-    "kind": "restkarten",
-    "id": "restkarten|heim|TSG Hoffenheim|2026/27",
-    "title": "🎫 Restkarten: Heim vs TSG Hoffenheim",
+    "kind": "fristen",
+    "id": "fristen-ende|heim|Sport-Club Freiburg|2026/27",
+    "title": "⏰ Letzte Chance: Bestellphase Heim vs Sport-Club Freiburg",
     "start": {
       "d": 7,
-      "mo": 10,
+      "mo": 12,
       "y": 2026,
-      "h": 15,
+      "h": 9,
+      "mi": 30
+    },
+    "durationMin": 60,
+    "alarms": [
+      "-P1D",
+      "-PT1H"
+    ],
+    "description": "Die Bestellphase endet voraussichtlich am 07.12.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: Sport-Club Freiburg\nSpieltermin: 22.01.2027, 20:30 Uhr\nBestellphase: 30.11.-07.12.2026, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-start|heim|FC Köln|2026/27": {
+    "venue": "heim",
+    "opponent": "FC Köln",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-start|heim|FC Köln|2026/27",
+    "title": "🎟️ Bestellphase startet: Heim vs FC Köln",
+    "start": {
+      "d": 14,
+      "mo": 12,
+      "y": 2026,
+      "h": 10,
       "mi": 30
     },
     "durationMin": 30,
     "alarms": [
-      "-PT1H",
-      "-PT5M"
+      "-P1D",
+      "-PT15M"
     ],
-    "description": "Heimspiel: TSG Hoffenheim\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Aufgrund technischer Probleme startet der Restkartenverkauf voraussichtlich 07.10.2026 15:30 Uhr.\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Heimspiel: FC Köln\nSpieltermin: 05.-07.02.2027\nBestellphase: 14.-21.12.2026, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-ende|heim|FC Köln|2026/27": {
+    "venue": "heim",
+    "opponent": "FC Köln",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-ende|heim|FC Köln|2026/27",
+    "title": "⏰ Letzte Chance: Bestellphase Heim vs FC Köln",
+    "start": {
+      "d": 21,
+      "mo": 12,
+      "y": 2026,
+      "h": 9,
+      "mi": 30
+    },
+    "durationMin": 60,
+    "alarms": [
+      "-P1D",
+      "-PT1H"
+    ],
+    "description": "Die Bestellphase endet voraussichtlich am 21.12.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: FC Köln\nSpieltermin: 05.-07.02.2027\nBestellphase: 14.-21.12.2026, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-start|heim|Borussia Dortmund|2026/27": {
+    "venue": "heim",
+    "opponent": "Borussia Dortmund",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-start|heim|Borussia Dortmund|2026/27",
+    "title": "🎟️ Bestellphase startet: Heim vs Borussia Dortmund",
+    "start": {
+      "d": 11,
+      "mo": 1,
+      "y": 2027,
+      "h": 10,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-P1D",
+      "-PT15M"
+    ],
+    "description": "Heimspiel: Borussia Dortmund\nSpieltermin: 19.-21.02.2027\nBestellphase: 11.-18.01.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-ende|heim|Borussia Dortmund|2026/27": {
+    "venue": "heim",
+    "opponent": "Borussia Dortmund",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-ende|heim|Borussia Dortmund|2026/27",
+    "title": "⏰ Letzte Chance: Bestellphase Heim vs Borussia Dortmund",
+    "start": {
+      "d": 18,
+      "mo": 1,
+      "y": 2027,
+      "h": 9,
+      "mi": 30
+    },
+    "durationMin": 60,
+    "alarms": [
+      "-P1D",
+      "-PT1H"
+    ],
+    "description": "Die Bestellphase endet voraussichtlich am 18.01.2027, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: Borussia Dortmund\nSpieltermin: 19.-21.02.2027\nBestellphase: 11.-18.01.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-start|heim|FSV Mainz 05|2026/27": {
+    "venue": "heim",
+    "opponent": "FSV Mainz 05",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-start|heim|FSV Mainz 05|2026/27",
+    "title": "🎟️ Bestellphase startet: Heim vs FSV Mainz 05",
+    "start": {
+      "d": 18,
+      "mo": 1,
+      "y": 2027,
+      "h": 10,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-P1D",
+      "-PT15M"
+    ],
+    "description": "Heimspiel: FSV Mainz 05\nSpieltermin: 02.-04.03.2027\nBestellphase: 18.-25.01.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-ende|heim|FSV Mainz 05|2026/27": {
+    "venue": "heim",
+    "opponent": "FSV Mainz 05",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-ende|heim|FSV Mainz 05|2026/27",
+    "title": "⏰ Letzte Chance: Bestellphase Heim vs FSV Mainz 05",
+    "start": {
+      "d": 25,
+      "mo": 1,
+      "y": 2027,
+      "h": 9,
+      "mi": 30
+    },
+    "durationMin": 60,
+    "alarms": [
+      "-P1D",
+      "-PT1H"
+    ],
+    "description": "Die Bestellphase endet voraussichtlich am 25.01.2027, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: FSV Mainz 05\nSpieltermin: 02.-04.03.2027\nBestellphase: 18.-25.01.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-start|heim|VfB Stuttgart|2026/27": {
+    "venue": "heim",
+    "opponent": "VfB Stuttgart",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-start|heim|VfB Stuttgart|2026/27",
+    "title": "🎟️ Bestellphase startet: Heim vs VfB Stuttgart",
+    "start": {
+      "d": 25,
+      "mo": 1,
+      "y": 2027,
+      "h": 10,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-P1D",
+      "-PT15M"
+    ],
+    "description": "Heimspiel: VfB Stuttgart\nSpieltermin: 12.-14.03.2027\nBestellphase: 25.01.-01.02.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-ende|heim|VfB Stuttgart|2026/27": {
+    "venue": "heim",
+    "opponent": "VfB Stuttgart",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-ende|heim|VfB Stuttgart|2026/27",
+    "title": "⏰ Letzte Chance: Bestellphase Heim vs VfB Stuttgart",
+    "start": {
+      "d": 1,
+      "mo": 2,
+      "y": 2027,
+      "h": 9,
+      "mi": 30
+    },
+    "durationMin": 60,
+    "alarms": [
+      "-P1D",
+      "-PT1H"
+    ],
+    "description": "Die Bestellphase endet voraussichtlich am 01.02.2027, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: VfB Stuttgart\nSpieltermin: 12.-14.03.2027\nBestellphase: 25.01.-01.02.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-start|heim|Eintracht Frankfurt|2026/27": {
+    "venue": "heim",
+    "opponent": "Eintracht Frankfurt",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-start|heim|Eintracht Frankfurt|2026/27",
+    "title": "🎟️ Bestellphase startet: Heim vs Eintracht Frankfurt",
+    "start": {
+      "d": 8,
+      "mo": 2,
+      "y": 2027,
+      "h": 10,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-P1D",
+      "-PT15M"
+    ],
+    "description": "Heimspiel: Eintracht Frankfurt\nSpieltermin: 09.-11.04.2027\nBestellphase: 08.-15.02.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-ende|heim|Eintracht Frankfurt|2026/27": {
+    "venue": "heim",
+    "opponent": "Eintracht Frankfurt",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-ende|heim|Eintracht Frankfurt|2026/27",
+    "title": "⏰ Letzte Chance: Bestellphase Heim vs Eintracht Frankfurt",
+    "start": {
+      "d": 15,
+      "mo": 2,
+      "y": 2027,
+      "h": 9,
+      "mi": 30
+    },
+    "durationMin": 60,
+    "alarms": [
+      "-P1D",
+      "-PT1H"
+    ],
+    "description": "Die Bestellphase endet voraussichtlich am 15.02.2027, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: Eintracht Frankfurt\nSpieltermin: 09.-11.04.2027\nBestellphase: 08.-15.02.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-start|heim|FC Bayern München|2026/27": {
+    "venue": "heim",
+    "opponent": "FC Bayern München",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-start|heim|FC Bayern München|2026/27",
+    "title": "🎟️ Bestellphase startet: Heim vs FC Bayern München",
+    "start": {
+      "d": 22,
+      "mo": 2,
+      "y": 2027,
+      "h": 10,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-P1D",
+      "-PT15M"
+    ],
+    "description": "Heimspiel: FC Bayern München\nSpieltermin: 23.-25.04.2027\nBestellphase: 22.02.-01.03.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-ende|heim|FC Bayern München|2026/27": {
+    "venue": "heim",
+    "opponent": "FC Bayern München",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-ende|heim|FC Bayern München|2026/27",
+    "title": "⏰ Letzte Chance: Bestellphase Heim vs FC Bayern München",
+    "start": {
+      "d": 1,
+      "mo": 3,
+      "y": 2027,
+      "h": 9,
+      "mi": 30
+    },
+    "durationMin": 60,
+    "alarms": [
+      "-P1D",
+      "-PT1H"
+    ],
+    "description": "Die Bestellphase endet voraussichtlich am 01.03.2027, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: FC Bayern München\nSpieltermin: 23.-25.04.2027\nBestellphase: 22.02.-01.03.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-start|heim|FC Schalke 04|2026/27": {
+    "venue": "heim",
+    "opponent": "FC Schalke 04",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-start|heim|FC Schalke 04|2026/27",
+    "title": "🎟️ Bestellphase startet: Heim vs FC Schalke 04",
+    "start": {
+      "d": 8,
+      "mo": 3,
+      "y": 2027,
+      "h": 10,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-P1D",
+      "-PT15M"
+    ],
+    "description": "Heimspiel: FC Schalke 04\nSpieltermin: 14.-16.05.2027\nBestellphase: 08.-15.03.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-ende|heim|FC Schalke 04|2026/27": {
+    "venue": "heim",
+    "opponent": "FC Schalke 04",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-ende|heim|FC Schalke 04|2026/27",
+    "title": "⏰ Letzte Chance: Bestellphase Heim vs FC Schalke 04",
+    "start": {
+      "d": 15,
+      "mo": 3,
+      "y": 2027,
+      "h": 9,
+      "mi": 30
+    },
+    "durationMin": 60,
+    "alarms": [
+      "-P1D",
+      "-PT1H"
+    ],
+    "description": "Die Bestellphase endet voraussichtlich am 15.03.2027, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: FC Schalke 04\nSpieltermin: 14.-16.05.2027\nBestellphase: 08.-15.03.2027, 10:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "restkarten|heim|Hamburger SV|2026/27": {
     "venue": "heim",
@@ -482,6 +724,28 @@
       "-PT5M"
     ],
     "description": "Heimspiel: Hamburger SV\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Restkartenverkauf startet voraussichtlich am 03.11.2026 10:30 Uhr - Nur für Mitglieder!\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "restkarten|heim|Borussia M'gladbach|2026/27": {
+    "venue": "heim",
+    "opponent": "Borussia M'gladbach",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "restkarten",
+    "id": "restkarten|heim|Borussia M'gladbach|2026/27",
+    "title": "🎫 Restkarten: Heim vs Borussia M'gladbach",
+    "start": {
+      "d": 11,
+      "mo": 11,
+      "y": 2026,
+      "h": 15,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-PT1H",
+      "-PT5M"
+    ],
+    "description": "Heimspiel: Borussia M'gladbach\nBearbeitungsstand: in Bearbeitung\nInfo: Restkartenverkauf startet voraussichtlich am 11.11.2026 15:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-start|auswaerts|LSK Hansa (DFB-Pokal)|2026/27": {
     "venue": "auswaerts",
@@ -888,7 +1152,7 @@
     "id": "fristen-start|auswaerts|FC Schalke 04|2026/27",
     "title": "🎟️ Bestellphase startet: Auswärts vs FC Schalke 04",
     "start": {
-      "d": 11,
+      "d": 16,
       "mo": 11,
       "y": 2026,
       "h": 10,
@@ -899,7 +1163,7 @@
       "-P1D",
       "-PT15M"
     ],
-    "description": "Auswärtsspiel: FC Schalke 04\nSpieltermin: 14.01.2027, Do. 20.30 Uhr\nBestellphase: 11.-18.11.2026, 10:30 Uhr\nHinweis: Beginn verschoben von Montag auf Mittwoch\nBearbeitungsstand: Bestellphase in Kürze\nhttps://www.werder.de/tickets/maenner/auswaertsspiele"
+    "description": "Auswärtsspiel: FC Schalke 04\nSpieltermin: 14.01.2027, Do. 20.30 Uhr\nBestellphase: 16.-23.11.2026, 10:30 Uhr\nHinweis: Beginn verschoben\nBearbeitungsstand: Bestellphase in Kürze\nhttps://www.werder.de/tickets/maenner/auswaertsspiele"
   },
   "fristen-ende|auswaerts|FC Schalke 04|2026/27": {
     "venue": "auswaerts",
@@ -910,7 +1174,7 @@
     "id": "fristen-ende|auswaerts|FC Schalke 04|2026/27",
     "title": "⏰ Letzte Chance: Bestellphase Auswärts vs FC Schalke 04",
     "start": {
-      "d": 18,
+      "d": 23,
       "mo": 11,
       "y": 2026,
       "h": 9,
@@ -921,7 +1185,205 @@
       "-P1D",
       "-PT1H"
     ],
-    "description": "Die Bestellphase endet voraussichtlich am 18.11.2026, 10:30 Uhr – lieber vorher bestellen!\nAuswärtsspiel: FC Schalke 04\nSpieltermin: 14.01.2027, Do. 20.30 Uhr\nBestellphase: 11.-18.11.2026, 10:30 Uhr\nHinweis: Beginn verschoben von Montag auf Mittwoch\nBearbeitungsstand: Bestellphase in Kürze\nhttps://www.werder.de/tickets/maenner/auswaertsspiele"
+    "description": "Die Bestellphase endet voraussichtlich am 23.11.2026, 10:30 Uhr – lieber vorher bestellen!\nAuswärtsspiel: FC Schalke 04\nSpieltermin: 14.01.2027, Do. 20.30 Uhr\nBestellphase: 16.-23.11.2026, 10:30 Uhr\nHinweis: Beginn verschoben\nBearbeitungsstand: Bestellphase in Kürze\nhttps://www.werder.de/tickets/maenner/auswaertsspiele"
+  },
+  "fristen-start|heim|FC Augsburg|2026/27": {
+    "venue": "heim",
+    "opponent": "FC Augsburg",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-start|heim|FC Augsburg|2026/27",
+    "title": "🎟️ Bestellphase startet: Heim vs FC Augsburg",
+    "start": {
+      "d": 20,
+      "mo": 7,
+      "y": 2026,
+      "h": 10,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-P1D",
+      "-PT15M"
+    ],
+    "description": "Heimspiel: FC Augsburg\nSpieltermin: 19.09.26, 15:30 Uhr\nBestellphase: 20.-30.07.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-ende|heim|FC Augsburg|2026/27": {
+    "venue": "heim",
+    "opponent": "FC Augsburg",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-ende|heim|FC Augsburg|2026/27",
+    "title": "⏰ Letzte Chance: Bestellphase Heim vs FC Augsburg",
+    "start": {
+      "d": 30,
+      "mo": 7,
+      "y": 2026,
+      "h": 9,
+      "mi": 30
+    },
+    "durationMin": 60,
+    "alarms": [
+      "-P1D",
+      "-PT1H"
+    ],
+    "description": "Die Bestellphase endet voraussichtlich am 30.07.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: FC Augsburg\nSpieltermin: 19.09.26, 15:30 Uhr\nBestellphase: 20.-30.07.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-start|heim|SC Paderborn 07|2026/27": {
+    "venue": "heim",
+    "opponent": "SC Paderborn 07",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-start|heim|SC Paderborn 07|2026/27",
+    "title": "🎟️ Bestellphase startet: Heim vs SC Paderborn 07",
+    "start": {
+      "d": 20,
+      "mo": 7,
+      "y": 2026,
+      "h": 10,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-P1D",
+      "-PT15M"
+    ],
+    "description": "Heimspiel: SC Paderborn 07\nSpieltermin: 17.10.26, 15:30 Uhr\nBestellphase: 20.-30.07.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-ende|heim|SC Paderborn 07|2026/27": {
+    "venue": "heim",
+    "opponent": "SC Paderborn 07",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-ende|heim|SC Paderborn 07|2026/27",
+    "title": "⏰ Letzte Chance: Bestellphase Heim vs SC Paderborn 07",
+    "start": {
+      "d": 30,
+      "mo": 7,
+      "y": 2026,
+      "h": 9,
+      "mi": 30
+    },
+    "durationMin": 60,
+    "alarms": [
+      "-P1D",
+      "-PT1H"
+    ],
+    "description": "Die Bestellphase endet voraussichtlich am 30.07.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: SC Paderborn 07\nSpieltermin: 17.10.26, 15:30 Uhr\nBestellphase: 20.-30.07.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-start|heim|TSG Hoffenheim|2026/27": {
+    "venue": "heim",
+    "opponent": "TSG Hoffenheim",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-start|heim|TSG Hoffenheim|2026/27",
+    "title": "🎟️ Bestellphase startet: Heim vs TSG Hoffenheim",
+    "start": {
+      "d": 20,
+      "mo": 7,
+      "y": 2026,
+      "h": 10,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-P1D",
+      "-PT15M"
+    ],
+    "description": "Heimspiel: TSG Hoffenheim\nSpieltermin: 31.10.26, 15:30 Uhr\nBestellphase: 20.-30.07.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "fristen-ende|heim|TSG Hoffenheim|2026/27": {
+    "venue": "heim",
+    "opponent": "TSG Hoffenheim",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "fristen",
+    "id": "fristen-ende|heim|TSG Hoffenheim|2026/27",
+    "title": "⏰ Letzte Chance: Bestellphase Heim vs TSG Hoffenheim",
+    "start": {
+      "d": 30,
+      "mo": 7,
+      "y": 2026,
+      "h": 9,
+      "mi": 30
+    },
+    "durationMin": 60,
+    "alarms": [
+      "-P1D",
+      "-PT1H"
+    ],
+    "description": "Die Bestellphase endet voraussichtlich am 30.07.2026, 10:30 Uhr – lieber vorher bestellen!\nHeimspiel: TSG Hoffenheim\nSpieltermin: 31.10.26, 15:30 Uhr\nBestellphase: 20.-30.07.2026, 10:30 Uhr\nBearbeitungsstand: Bearbeitung abgeschlossen\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "restkarten|heim|FC Augsburg|2026/27": {
+    "venue": "heim",
+    "opponent": "FC Augsburg",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "restkarten",
+    "id": "restkarten|heim|FC Augsburg|2026/27",
+    "title": "🎫 Restkarten: Heim vs FC Augsburg",
+    "start": {
+      "d": 26,
+      "mo": 8,
+      "y": 2026,
+      "h": 15,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-PT1H",
+      "-PT5M"
+    ],
+    "description": "Heimspiel: FC Augsburg\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Restkartenverkauf startet voraussichtlich am 26.08.2026 15:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "restkarten|heim|SC Paderborn 07|2026/27": {
+    "venue": "heim",
+    "opponent": "SC Paderborn 07",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "restkarten",
+    "id": "restkarten|heim|SC Paderborn 07|2026/27",
+    "title": "🎫 Restkarten: Heim vs SC Paderborn 07",
+    "start": {
+      "d": 14,
+      "mo": 9,
+      "y": 2026,
+      "h": 15,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-PT1H",
+      "-PT5M"
+    ],
+    "description": "Heimspiel: SC Paderborn 07\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Restkartenverkauf startet voraussichtlich am 14.09.2026 15:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
+  "restkarten|heim|TSG Hoffenheim|2026/27": {
+    "venue": "heim",
+    "opponent": "TSG Hoffenheim",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "restkarten",
+    "id": "restkarten|heim|TSG Hoffenheim|2026/27",
+    "title": "🎫 Restkarten: Heim vs TSG Hoffenheim",
+    "start": {
+      "d": 7,
+      "mo": 10,
+      "y": 2026,
+      "h": 15,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-PT1H",
+      "-PT5M"
+    ],
+    "description": "Heimspiel: TSG Hoffenheim\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Aufgrund technischer Probleme startet der Restkartenverkauf voraussichtlich 07.10.2026 15:30 Uhr.\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "freikarten-ende|heim|FC Augsburg|2026/27": {
     "venue": "heim",
