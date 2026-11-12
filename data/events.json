@@ -723,7 +723,7 @@
       "-PT1H",
       "-PT5M"
     ],
-    "description": "Heimspiel: Hamburger SV\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Restkartenverkauf startet voraussichtlich am 03.11.2026 10:30 Uhr - Nur für Mitglieder!\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Heimspiel: Hamburger SV\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Restkartenverkauf startet voraussichtlich am 03.11.2026 10:30 Uhr - Nur für Mitglieder!Auf der Suche nach einem Parkplatz? Buche hier!\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "restkarten|heim|Borussia M'gladbach|2026/27": {
     "venue": "heim",
@@ -745,7 +745,7 @@
       "-PT1H",
       "-PT5M"
     ],
-    "description": "Heimspiel: Borussia M'gladbach\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Restkartenverkauf startet voraussichtlich am 11.11.2026 15:30 Uhr\nhttps://www.werder.de/tickets/maenner/heimspiele"
+    "description": "Heimspiel: Borussia M'gladbach\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Restkartenverkauf startet voraussichtlich am 11.11.2026 15:30 Uhr Auf der Suche nach einem Parkplatz? Buche hier!\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
   "fristen-start|auswaerts|LSK Hansa (DFB-Pokal)|2026/27": {
     "venue": "auswaerts",
