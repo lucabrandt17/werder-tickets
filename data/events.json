@@ -747,6 +747,28 @@
     ],
     "description": "Heimspiel: Borussia M'gladbach\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Restkartenverkauf startet voraussichtlich am 11.11.2026 15:30 Uhr Auf der Suche nach einem Parkplatz? Buche hier!\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
+  "restkarten|heim|Bayer 04 Leverkusen|2026/27": {
+    "venue": "heim",
+    "opponent": "Bayer 04 Leverkusen",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "restkarten",
+    "id": "restkarten|heim|Bayer 04 Leverkusen|2026/27",
+    "title": "🎫 Restkarten: Heim vs Bayer 04 Leverkusen",
+    "start": {
+      "d": 23,
+      "mo": 11,
+      "y": 2026,
+      "h": 15,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-PT1H",
+      "-PT5M"
+    ],
+    "description": "Heimspiel: Bayer 04 Leverkusen\nBearbeitungsstand: in Bearbeitung\nInfo: Restkartenverkauf startet voraussichtlich am 23.11.2026 15:30 Uhr Auf der Suche nach einem Parkplatz? Buche hier!\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
   "fristen-start|auswaerts|LSK Hansa (DFB-Pokal)|2026/27": {
     "venue": "auswaerts",
     "opponent": "LSK Hansa (DFB-Pokal)",
