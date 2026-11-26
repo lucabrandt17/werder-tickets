@@ -769,6 +769,28 @@
     ],
     "description": "Heimspiel: Bayer 04 Leverkusen\nBearbeitungsstand: Bearbeitung abgeschlossen\nInfo: Restkartenverkauf startet voraussichtlich am 23.11.2026 15:30 Uhr Auf der Suche nach einem Parkplatz? Buche hier!\nhttps://www.werder.de/tickets/maenner/heimspiele"
   },
+  "restkarten|heim|1. FC Union Berlin|2026/27": {
+    "venue": "heim",
+    "opponent": "1. FC Union Berlin",
+    "season": "2026/27",
+    "url": "https://www.werder.de/tickets/maenner/heimspiele",
+    "kind": "restkarten",
+    "id": "restkarten|heim|1. FC Union Berlin|2026/27",
+    "title": "🎫 Restkarten: Heim vs 1. FC Union Berlin",
+    "start": {
+      "d": 27,
+      "mo": 11,
+      "y": 2026,
+      "h": 13,
+      "mi": 30
+    },
+    "durationMin": 30,
+    "alarms": [
+      "-PT1H",
+      "-PT5M"
+    ],
+    "description": "Heimspiel: 1. FC Union Berlin\nBearbeitungsstand: in Bearbeitung\nInfo: Restkartenverkauf startet voraussichtlich am 27.11.2026 13:30 Uhr Auf der Suche nach einem Parkplatz? Buche hier!\nhttps://www.werder.de/tickets/maenner/heimspiele"
+  },
   "fristen-start|auswaerts|LSK Hansa (DFB-Pokal)|2026/27": {
     "venue": "auswaerts",
     "opponent": "LSK Hansa (DFB-Pokal)",
